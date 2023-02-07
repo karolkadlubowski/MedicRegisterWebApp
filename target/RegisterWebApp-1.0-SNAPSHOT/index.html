@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+    <h1>Clinic register</h1>
+    <hr>
+    <form action="AddPatientsServlet" method="GET">
+        Patient's Name: <input type=text size=20 name=patientName>&nbsp;&nbsp;&nbsp;&nbsp;
+        Patient's Pesel:  <input type=text size=20 name=patientPesel>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        <p><input type="submit" value="Add Patient" /></p>
+    </form>
+    <form action="DisplayPatientsServlet" method="GET">
+        <p><input type="submit" value="Display patients" /></p>
+    </form>
+    <hr>
+
+    <form action="AddAppointmentsServlet" method="GET">
+        <p><input type="submit" value="Add appointment"></p>
+    </form>
+
+    <form action="DisplayPatientAppointmentsServlet" method="GET">
+        Patient's Pesel:  <input type=text size=20 name=patientPeselToDisplayAppointments>&nbsp;&nbsp;&nbsp;&nbsp;
+        <p><input type="submit" value="Display appointments" /></p>
+    </form>
+
+
+    <br>
+    </body>
+</html>
