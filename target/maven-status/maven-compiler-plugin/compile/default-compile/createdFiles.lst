@@ -1,0 +1,3 @@
+com\mycompany\servlets\TestServlet.class
+com\mycompany\registerwebapp\resources\JavaEE8Resource.class
+com\mycompany\registerwebapp\JAXRSConfiguration.class

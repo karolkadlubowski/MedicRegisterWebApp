@@ -1,0 +1,8 @@
+com.mycompany.model
+com.mycompany.model.database.dao
+com.mycompany.model.database.domain
+com.mycompany.model.database.util
+com.mycompany.model.exceptions
+com.mycompany.registerwebapp
+com.mycompany.registerwebapp.resources
+com.mycompany.servlets
